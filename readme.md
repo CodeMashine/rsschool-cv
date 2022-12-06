@@ -1,1 +1,1 @@
-readme file .
+https://codemashine.github.io/rsschool-cv/cv
