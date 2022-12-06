@@ -1,8 +1,8 @@
 ## Petr Mashin
 ### Contacts 
-#### mobile phone - 89377755763 , WatsApp , 
-#### Telegramm - @underdante , discord - underdante ,
-#### email - peteashine@gmail.com .
+#### *mobile phone - 89377755763 , WatsApp , 
+#### *Telegramm - @underdante , discord - underdante ,
+#### *email - peteashine@gmail.com .
 
 
 ### Short personal info
@@ -12,14 +12,14 @@
 
 
 ### Skills
-#### javascript , html , css .
-#### react , redux-tools , tailwind css . 
+#### *javascript , html , css .
+#### *react , redux-tools , tailwind css . 
 
 ### Code examples 
-#### https://github.com/CodeMashine
+#### *https://github.com/CodeMashine
 
 ### Education 
-#### course for beginers JavaScript/DOM/Interfaces -- learn.javascript.ru
+#### *course for beginers JavaScript/DOM/Interfaces -- learn.javascript.ru
 
 ### English
-####  B1 (Intermediate English) 
+#### *B1 (Intermediate English) 
