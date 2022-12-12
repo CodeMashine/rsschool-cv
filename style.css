@@ -1,9 +1,219 @@
-* {
+*{
     margin:0;
     padding:0;
 }
 
-.header{
+a :visited{
+    color:white ;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+li{
+    list-style-type: none;
+}
+
+.main_header{
     display:flex;
-    justify-content: center;
+    align-items: center;
+    background-color:black;
+    width: 100%;
+    height: 5vh;
+}
+
+.main_header span{
+    font-family: "Courier New" , sans-serif ;
+    margin-left:auto;
+    margin-right:12rem;
+  }
+
+.main_header span a{
+    color:white ;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.main{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width:80% ;
+    height: 89vh;
+    /* border:1px dotted red ; */
+    font-family: "Courier New" , sans-serif ;
+}
+
+.personal{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:3rem;
+    width: 40%;
+}
+
+.personal_photo , .personal_profile{
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+    border:3px solid black ;
+}
+
+.personal_photo{
+    align-items: center;
+}
+
+
+.personal_photo img{
+    border-radius: 20%;
+    margin-bottom:2rem;
+}
+
+.personal_photo hr{
+    color:black;
+    background-color: black;
+    height: 2px;
+    width: 6rem;
+    margin-top:0.5rem ;
+    margin-bottom:0.5rem ;
+}
+.personal_photo h3 {
+    margin-bottom:1rem ;
+}
+
+
+
+.personal_profile{
+    background-color:black ;
+    color:white ;
+    display:flex ;
+    flex-direction: column;
+}
+
+.personal_about , .personal_contacts {
+    margin-top:2rem;
+    padding-left:0.3rem;
+}
+
+.personal_contacts{
+    height: 10rem;
+}
+
+.personal_contacts a {
+    color:white ;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.personal_contacts p , .personal_about p{
+    display: flex ;
+    flex-direction: column;
+    color:white ;
+    margin-top:1rem ;
+}
+
+
+
+.personal_info{
+display:flex ;
+flex-direction: column;
+padding-top:3rem;
+/* height: 100%; */
+width: 60%;
+}
+
+.personal_info a {
+    color:black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.personal_info_education {
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    padding-bottom:1rem;
+}
+
+.personal_info_education div{
+    margin-top:1rem;
+}
+
+.personal_info_education span{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.personal_info_education p{
+    margin-top:0.5rem;
+}
+
+.personal_info_skills{
+    margin-top:1rem;
+    padding-bottom:1rem;
+    border-bottom:4px solid black;
+}
+
+.personal_info_skills span :hover{
+    cursor: pointer;
+}
+
+.personal_info_projects{
+    display:flex;
+    flex-direction: column;
+    margin-top:1rem ;
+    padding-bottom:1rem;
+    border-bottom:4px solid black;
+}
+
+.personal_info_projects span{
+    margin-top:1rem;
+}
+
+.personal_info_languages{
+    display:flex;
+    flex-direction: column;
+    margin-top:1rem ;
+}
+
+.personal_info_languages span{
+    margin-top:1rem;
+}
+
+
+
+.footer{
+    margin-top:auto ;
+    background-color:black;
+    width: 100%;
+    height: 6vh ;
+}
+
+.footer_content{
+    /* border:2px solid white ; */
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:space-between;
+    width: 70%;
+    align-items: center ;
+    height: 90%;
+    /* background-color: white; */
+}
+
+.footer_content , a{
+    font-family: 'Courier New', Courier, monospace;
+    color:white ;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+.footer_content_school{
+    height: 100%;
+    width: 15%;
+}
+
+.footer_content_school img{
+    height: 100%;
+    width: 100%;
+    /* background-image: url('./img/rs_school_js.svg'); */
 }
