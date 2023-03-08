@@ -1,8 +1,8 @@
 ## Petr Mashin
 ### Contacts 
-#### *mobile phone - 89377755763 , WatsApp , 
-#### *Telegramm - @underdante , discord - underdante ,
-#### *email - peteashine@gmail.com .
+#### mobile phone - 89377755763 , WatsApp , 
+#### Telegramm - @underdante , discord - underdante ,
+#### email - peteashine@gmail.com .
 
 
 ### Short personal info
@@ -12,16 +12,19 @@
 
 
 ### Skills
-#### *javascript , html , css .
-#### *react , redux-tools , tailwind css . 
+#### -javascript , html , css .
+#### -react , redux-tools , tailwind css . 
 
 ### Code examples 
 **[My Github](https://github.com/CodeMashine)**
+
 **[Momentum - final task at  Stage0 Rs School](https://codemashine-momentum.web.app/)**
 
 #### 6 kyu codewars kata
 
 *[Pair of gloves](https://www.codewars.com/kata/58235a167a8cb37e1a0000db/javascript)*
+
+```
 function numberOfPairs(gloves){
 let res = 0 ;
 let copy = Object.assign([],gloves) ;
@@ -35,6 +38,7 @@ let copy = Object.assign([],gloves) ;
  }
 return res ;
 }
+```
 
 
 ### Education 
