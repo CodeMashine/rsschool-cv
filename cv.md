@@ -18,6 +18,23 @@
 ### Code examples 
 #### *https://github.com/CodeMashine
 
+
+### 6 kyu codewars kata  , **Pair of gloves**
+#### <code>function numberOfPairs(gloves){
+let res = 0 ;
+let copy = Object.assign([],gloves) ;
+ while(copy.length){
+   let right = copy[0] ;
+       copy.splice(0,1) ;
+   if(copy.includes(right)){
+     copy.splice(copy.indexOf(right),1);
+     res++ ;
+   }
+ }
+return res ;
+}</code>
+
+
 ### Education 
 #### *course for beginers JavaScript/DOM/Interfaces -- learn.javascript.ru
 #### *stage 0 RS school at 2022Q4 , my points 765/780
