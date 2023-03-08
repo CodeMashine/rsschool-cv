@@ -1,8 +1,8 @@
 ## Petr Mashin
 ### Contacts 
-#### mobile phone - 89377755763 , WatsApp , 
-#### Telegramm - @underdante , discord - underdante ,
-#### email - peteashine@gmail.com .
+#### **mobile phone** - 89377755763 , WatsApp , 
+#### **Telegramm** - @underdante , discord - underdante ,
+#### **email** - peteashine@gmail.com .
 
 
 ### Short personal info
