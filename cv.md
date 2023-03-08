@@ -16,11 +16,11 @@
 #### *react , redux-tools , tailwind css . 
 
 ### Code examples 
-#### *https://github.com/CodeMashine
-
+#### *[][https://github.com/CodeMashine]
+#### *https://codemashine-momentum.web.app/
 
 ### 6 kyu codewars kata  , **Pair of gloves**
-#### <code>function numberOfPairs(gloves){
+#### ```function numberOfPairs(gloves){
 let res = 0 ;
 let copy = Object.assign([],gloves) ;
  while(copy.length){
@@ -32,7 +32,7 @@ let copy = Object.assign([],gloves) ;
    }
  }
 return res ;
-}</code>
+}```
 
 
 ### Education 
