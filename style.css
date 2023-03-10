@@ -7,7 +7,7 @@
   src: url("../fonts/oswald-v49-latin_cyrillic-regular.woff2") format("woff2"),
     /* Chrome 36+, Opera 23+, Firefox 39+ */
       url("/fonts/oswald-v49-latin_cyrillic-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-     /* url("../fonts/oswald-v49-latin_cyrillic-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  /* url("../fonts/oswald-v49-latin_cyrillic-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* oswald-700 - latin_cyrillic */
 @font-face {
@@ -20,37 +20,136 @@
       url("../fonts/oswald-v49-latin_cyrillic-700.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-
-*{
-    margin:0 ;
-    padding:0 ;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.body{
-   background:linear-gradient(to right, #343a4c 30% , white 30%);;
-   /* background:linear-gradient(to right, #343a4c 30% , white 70%);; */
-   /* linear-gradient(to right, green 50%, red 50%); */
+h1 , .h1 , h2 , .h2 , h3 , .h3 , p{
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: 400;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
 }
 
 
 
-.wrapper{
-    max-width: 90%;
-    padding: 0 10px;
-    margin:0 auto ;
+.body {
+  background: linear-gradient(to right, #343a4c 30%, white 30%);
+  /* background:linear-gradient(to right, #343a4c 30% , white 70%);; */
+  /* linear-gradient(to right, green 50%, red 50%); */
+  font-family: "Oswald", sans-serif;
 }
 
-.screen{
-    display: flex;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-.sidebar{
-    flex-basis: 27.8%;
-    /* background-color: #343a4c; */
-    background-color: red;
-    /* height: 100vh; */
-    color:#fff ;
-    font-family: "Oswald" , sans-serif;
-    font-size: 42px;
-    font-weight: 700;
+li{
+  list-style: none;
 }
+
+
+.wrapper {
+  max-width: 85%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.screen {
+  display: flex;
+}
+
+.sidebar {
+  flex-basis: 27.8%;
+  /* background-color: #343a4c; */
+  /* background-color: red; */
+  /* height: 100vh; */
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  /* text-align: center; */
+}
+
+.photo {
+  margin:0 auto ;
+  margin-top: 30px ;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background: center/cover no-repeat
+  url("/images/Снимок\ экрана\ от\ 2022-12-11\ 17-12-40.png");
+}
+
+.contacts{
+  margin-top:40px ;
+  text-align:left ;
+}
+
+.contacts-h3 , .education-h3 , .language-h3 , .skills-h3{
+  font-size: 24px;
+  font-weight: 700;
+  border-bottom: 1px solid #fff ;  
+}
+
+.contacts-item , .education-item , .language-item{
+  margin:10px 0 ;
+  font-size: 16px;
+}
+
+.main{
+  margin-top: 30px;
+  width: 70% ;
+}
+
+.pesonal-name{
+  font-size: 42px;
+  border-bottom:1px solid black
+}
+
+.introduse{
+  margin-top:30px ;
+}
+
+.skills{
+  margin-top:75px ;
+}
+
+.skills-h3{
+  border-bottom: 1px solid #000;
+}
+
+.skills-list{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-item{
+  width: 50px;
+  height: 50px;
+  transition: all 1s linear;
+}
+
+.skills-item:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.github {
+  background:center/cover no-repeat url("./images/github-svgrepo-com.svg")
+}
+
+
+
+
+
+
+
+
