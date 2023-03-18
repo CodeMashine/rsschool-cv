@@ -4,9 +4,9 @@
   font-family: "Oswald";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/oswald-v49-latin_cyrillic-regular.woff2") format("woff2"),
+  src: url("../rsschool-cv/fonts/oswald-v49-latin_cyrillic-regular.woff2") format("woff2"),
     /* Chrome 36+, Opera 23+, Firefox 39+ */
-      url("/fonts/oswald-v49-latin_cyrillic-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url("../rsschool-cv/fonts/oswald-v49-latin_cyrillic-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   /* url("../fonts/oswald-v49-latin_cyrillic-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* oswald-700 - latin_cyrillic */
@@ -15,9 +15,10 @@
   font-family: "Oswald";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/oswald-v49-latin_cyrillic-700.woff2") format("woff2"),
+  src: url("../rsschool-cv/fonts/oswald-v49-latin_cyrillic-700.woff2") format("woff2"),
     /* Chrome 36+, Opera 23+, Firefox 39+ */
-      url("../fonts/oswald-v49-latin_cyrillic-700.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url("../rsschool-cv/fonts/oswald-v49-latin_cyrillic-700.woff2") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      /* url("../fonts/oswald-v49-latin_cyrillic-700.woff") format("woff"); Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 * {
@@ -25,20 +26,26 @@
   padding: 0;
 }
 
-h1 , .h1 , h2 , .h2 , h3 , .h3 , p{
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+p {
   margin: 0;
   padding: 0;
   font-size: inherit;
   font-weight: 400;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
   font-weight: 700;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
@@ -52,10 +59,9 @@ img {
   height: auto;
 }
 
-li{
+li {
   list-style: none;
 }
-
 
 .wrapper {
   max-width: 85%;
@@ -74,63 +80,62 @@ li{
 }
 
 .photo {
-  margin:0 auto ;
-  margin-top: 30px ;
-  /* height: 200px; */
+  margin: 0 auto;
+  margin-top: 30px;
   width: 70%;
-  /* background: center/cover no-repeat */
-  /* url("/images/photo/photo.png"); */
 }
 
 .photo img {
   border-radius: 50%;
 }
 
-.contacts{
-  margin-top:40px ;
-  text-align:left ;
+.contacts {
+  margin-top: 40px;
+  text-align: left;
 }
 
-.h3{
+.h3 {
   font-size: 24px;
   font-weight: 700;
-  border-bottom: 1px solid #fff ;  
+  border-bottom: 1px solid #fff;
 }
 
-.contacts-item , .education-item , .language-item{
-  margin:10px 0 ;
+.contacts-item,
+.education-item,
+.language-item {
+  margin: 10px 0;
   font-size: 16px;
 }
 
-.main{
+.main {
   margin-top: 30px;
-  width: 70% ;
+  width: 70%;
 }
 
-.pesonal-name{
+.pesonal-name {
   font-size: 42px;
-  border-bottom:1px solid black
+  border-bottom: 1px solid black;
 }
 
-.introduse{
-  margin-top:30px ;
+.introduse {
+  margin-top: 30px;
 }
 
-.skills{
-  margin-top:75px ;
+.skills {
+  margin-top: 75px;
 }
 
-.skills.h3{
+.skills.h3 {
   border-bottom: 1px solid #000;
 }
 
-.skills-list{
+.skills-list {
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
 }
 
-.skills-item{
+.skills-item {
   width: 50px;
   height: 50px;
   transition: all 1s linear;
@@ -141,65 +146,57 @@ li{
   transform: scale(1.2);
 }
 
-/* .github {
-  background:center/cover no-repeat url("./images/icons/github-svgrepo-com.svg")
-} */
-
-
-
-
-
-.projects{
-  margin-top:3rem ;
+.projects {
+  margin-top: 3rem;
 }
 
-.projects > .h3{
-  border-bottom:1px solid #000 ;
+.projects > .h3 {
+  border-bottom: 1px solid #000;
 }
 
-
-.projects-list{
-  margin-top:2rem ;
+.projects-list {
+  margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.projects-item{
+.projects-item {
   display: flex;
-  /* flex-wrap: wrap; */
   flex-direction: column;
   justify-content: space-between;
-  /* align-items: ; */
-  flex-basis: calc(100%/2 - 30px);
-  border:2px solid #343a4c ;
+  flex-basis: calc(100% / 2 - 30px);
+  border: 2px solid #343a4c;
   border-radius: 10px;
-  padding: 10px ;
-  margin: 5px 0 ;
-  /* max-width: calc(100%/3 - 20px); */
+  padding: 10px;
+  margin: 5px 0;
 }
 
-.tech-list{
+.item-technologies{
+  margin-top :2em ; 
+}
+
+
+.tech-list {
   display: flex;
-  border:1px solid #343a4c;
-  border-radius:10px ;
+  border: 1px solid #343a4c;
+  border-radius: 10px;
   justify-content: space-around;
 }
 
-
-.item-image:hover{
-  cursor:zoom-in;
+.item-image:hover {
+  cursor: zoom-in;
 }
 
 .item-image img {
-  border:1px solid #343a4c ;
+  border: 1px solid #343a4c;
   transition: all 1s ease-in;
 }
 
-.modal{
-  position: fixed ;
-  top:0;
-  left:0;
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100vw;
   z-index: -1;
   opacity: 0;
@@ -207,53 +204,49 @@ li{
   transition: all 1.5s ease;
 }
 
-.modal.active{
+.modal.active {
   z-index: 5;
   opacity: 1;
 }
 
-.modal.active:hover{
+.modal.active:hover {
   cursor: zoom-out;
 }
 
-.modal-background{
+.modal-background {
   width: 100%;
   background-color: #343a4c;
   opacity: 0.6;
   height: 100%;
 }
 
-
-.modal-inner{
+.modal-inner {
   position: fixed;
-  top:10%;
+  top: 10%;
   left: 10%;
   width: 80%;
   height: 80%;
 }
 
-@media screen and ( max-width : 900px){
-  .wrapper{
-   max-width: 90%;
+@media screen and (max-width: 900px) {
+  .wrapper {
+    max-width: 90%;
   }
   .projects-item {
     flex-basis: 100%;
   }
-
-
-
 }
 
-@media screen and ( max-width : 750px){
-  .wrapper{
+@media screen and (max-width: 750px) {
+  .wrapper {
     width: 100%;
   }
 
-  .screen{
+  .screen {
     display: block;
   }
 
-  .main{
+  .main {
     width: 100%;
     background-color: #fff;
   }
@@ -262,21 +255,7 @@ li{
     background: linear-gradient(to bottom, #343a4c 27%, white 27%);
     /* color:#fff; */
   }
-.projects-item{
-  flex-basis: 100%;
+  .projects-item {
+    flex-basis: 100%;
+  }
 }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
