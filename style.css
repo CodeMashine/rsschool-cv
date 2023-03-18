@@ -1,0 +1,268 @@
+/* oswald-regular - latin_cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/oswald-v49-latin_cyrillic-regular.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      /* url("../rsschool-cv/fonts/oswald-v49-latin_cyrillic-regular.woff") format("woff"); */
+  url("./fonts/oswald-v49-latin_cyrillic-regular.woff") format("woff"); 
+}
+/* oswald-700 - latin_cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/oswald-v49-latin_cyrillic-700.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      /* url("../rsschool-cv/fonts/oswald-v49-latin_cyrillic-700.woff2") format("woff"); */
+      url("./fonts/oswald-v49-latin_cyrillic-700.woff") format("woff"); 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+p {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.body {
+  background: linear-gradient(to right, #343a4c 30%, white 30%);
+  font-family: "Oswald", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 85%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.screen {
+  display: flex;
+}
+
+.sidebar {
+  flex-basis: 26.5%;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+}
+
+.photo {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 70%;
+}
+
+.photo img {
+  border-radius: 50%;
+}
+
+.contacts {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.h3 {
+  font-size: 24px;
+  font-weight: 700;
+  border-bottom: 1px solid #fff;
+}
+
+.contacts-item,
+.education-item,
+.language-item {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.main {
+  margin-top: 30px;
+  width: 70%;
+}
+
+.pesonal-name {
+  font-size: 42px;
+  border-bottom: 1px solid black;
+}
+
+.introduse {
+  margin-top: 30px;
+}
+
+.skills {
+  margin-top: 75px;
+}
+
+.skills.h3 {
+  border-bottom: 1px solid #000;
+}
+
+.skills-list {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-item {
+  width: 50px;
+  height: 50px;
+  transition: all 1s linear;
+}
+
+.skills-item:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.projects {
+  margin-top: 3rem;
+}
+
+.projects > .h3 {
+  border-bottom: 1px solid #000;
+}
+
+.projects-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.projects-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: calc(100% / 2 - 30px);
+  border: 2px solid #343a4c;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.item-technologies{
+  padding-top :2em ; 
+}
+
+
+.tech-list {
+  display: flex;
+  border: 1px solid #343a4c;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+
+.technologies-header{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+.item-image:hover {
+  cursor: zoom-in;
+}
+
+.item-image img {
+  border: 1px solid #343a4c;
+  transition: all 1s ease-in;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+  opacity: 0;
+  height: 100vh;
+  transition: all 1.5s ease;
+}
+
+.modal.active {
+  z-index: 5;
+  opacity: 1;
+}
+
+.modal.active:hover {
+  cursor: zoom-out;
+}
+
+.modal-background {
+  width: 100%;
+  background-color: #343a4c;
+  opacity: 0.6;
+  height: 100%;
+}
+
+.modal-inner {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    max-width: 90%;
+  }
+  .projects-item {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .screen {
+    display: block;
+  }
+
+  .main {
+    width: 100%;
+    background-color: #fff;
+
+  }
+  .body {
+    /* background:#343a4c; */
+    background: linear-gradient(to bottom, #343a4c 25%, white 25%);
+    /* color:#fff; */
+  }
+  .projects-item {
+    flex-basis: 100%;
+  }
+}
